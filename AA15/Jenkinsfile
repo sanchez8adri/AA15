@@ -1,0 +1,65 @@
+import java.time.LocalDate
+pipeline{
+agent any 
+stages{ 
+stage('Main'){ 
+steps{ 
+script{ 
+println LocalDate.now() 
+println 'Provincia A Coruña - Codigo Provincia: 0 - Capital: A Coruña'   
+println 'Provincia Alacant - Codigo Provincia: 1 - Capital: Alacant'   
+println 'Provincia Albacete - Codigo Provincia: 2 - Capital: Albacete'   
+println 'Provincia Almería - Codigo Provincia: 3 - Capital: Almería'   
+println 'Provincia Araba - Codigo Provincia: 4 - Capital: Araba'   
+println 'Provincia Asturias - Codigo Provincia: 5 - Capital: Asturias'   
+println 'Provincia Badajoz - Codigo Provincia: 6 - Capital: Badajoz'   
+println 'Provincia Barcelona - Codigo Provincia: 7 - Capital: Barcelona'   
+println 'Provincia Bizkaia - Codigo Provincia: 8 - Capital: Bizkaia'   
+println 'Provincia Burgos - Codigo Provincia: 9 - Capital: Burgos'   
+println 'Provincia Cantabria - Codigo Provincia: 10 - Capital: Cantabria'   
+println 'Provincia Castelló - Codigo Provincia: 11 - Capital: Castelló'   
+println 'Provincia Ceuta - Codigo Provincia: 12 - Capital: Ceuta'   
+println 'Provincia Ciudad Real - Codigo Provincia: 13 - Capital: Ciudad Real'   
+println 'Provincia Cuenca - Codigo Provincia: 14 - Capital: Cuenca'   
+println 'Provincia Cáceres - Codigo Provincia: 15 - Capital: Cáceres'   
+println 'Provincia Cádiz - Codigo Provincia: 16 - Capital: Cádiz'   
+println 'Provincia Córdoba - Codigo Provincia: 17 - Capital: Córdoba'   
+println 'Provincia Gipuzcoa - Codigo Provincia: 18 - Capital: Gipuzcoa'   
+println 'Provincia Girona - Codigo Provincia: 19 - Capital: Girona'   
+println 'Provincia Granada - Codigo Provincia: 20 - Capital: Granada'   
+println 'Provincia Guadalajara - Codigo Provincia: 21 - Capital: Guadalajara'   
+println 'Provincia Huelva - Codigo Provincia: 22 - Capital: Huelva'   
+println 'Provincia Huesca - Codigo Provincia: 23 - Capital: Huesca'   
+println 'Provincia Illes Balears - Codigo Provincia: 24 - Capital: Illes Balears'   
+println 'Provincia Jaén - Codigo Provincia: 25 - Capital: Jaén'   
+println 'Provincia La Rioja - Codigo Provincia: 26 - Capital: La Rioja'   
+println 'Provincia Las Palmas - Codigo Provincia: 27 - Capital: Las Palmas'   
+println 'Provincia León - Codigo Provincia: 28 - Capital: León'   
+println 'Provincia Lleida - Codigo Provincia: 29 - Capital: Lleida'   
+println 'Provincia Lugo - Codigo Provincia: 30 - Capital: Lugo'   
+println 'Provincia Madrid - Codigo Provincia: 31 - Capital: Madrid'   
+println 'Provincia Melilla - Codigo Provincia: 32 - Capital: Melilla'   
+println 'Provincia Murcia - Codigo Provincia: 33 - Capital: Murcia'   
+println 'Provincia Málaga - Codigo Provincia: 34 - Capital: Málaga'   
+println 'Provincia Navarra - Codigo Provincia: 35 - Capital: Navarra'   
+println 'Provincia Ourense - Codigo Provincia: 36 - Capital: Ourense'   
+println 'Provincia Palencia - Codigo Provincia: 37 - Capital: Palencia'   
+println 'Provincia Pontevedra - Codigo Provincia: 38 - Capital: Pontevedra'   
+println 'Provincia Salamanca - Codigo Provincia: 39 - Capital: Salamanca'   
+println 'Provincia Santa Cruz de Tenerife - Codigo Provincia: 40 - Capital: Santa Cruz de Tenerife'   
+println 'Provincia Segovia - Codigo Provincia: 41 - Capital: Segovia'   
+println 'Provincia Sevilla - Codigo Provincia: 42 - Capital: Sevilla'   
+println 'Provincia Soria - Codigo Provincia: 43 - Capital: Soria'   
+println 'Provincia Tarragona - Codigo Provincia: 44 - Capital: Tarragona'   
+println 'Provincia Teruel - Codigo Provincia: 45 - Capital: Teruel'   
+println 'Provincia Toledo - Codigo Provincia: 46 - Capital: Toledo'   
+println 'Provincia Valladolid - Codigo Provincia: 47 - Capital: Valladolid'   
+println 'Provincia València - Codigo Provincia: 48 - Capital: València'   
+println 'Provincia Zamora - Codigo Provincia: 49 - Capital: Zamora'   
+println 'Provincia Zaragoza - Codigo Provincia: 50 - Capital: Zaragoza'   
+println 'Provincia Ávila - Codigo Provincia: 51 - Capital: Ávila'   
+} 
+} 
+} 
+} 
+} 

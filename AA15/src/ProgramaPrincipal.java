@@ -47,6 +47,7 @@ public class ProgramaPrincipal implements GeneradorSalida{
 			}
 
 			gs.GenerarTXT(listaCapitales);
+			gs.GenerarJenkins(listaCapitales);
 			
 			System.out.println("Lista de capitales almacenadas con éxito.");
 			
@@ -71,6 +72,7 @@ public class ProgramaPrincipal implements GeneradorSalida{
 			
 			bw.close();
 			fw.close();
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
